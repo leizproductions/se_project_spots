@@ -1,5 +1,6 @@
 .profile {
   display: flex;
+  align-items: flex-start;
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
@@ -13,6 +14,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -22,10 +24,12 @@
 
 .profile__name {
   margin: 0 0 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+  color:#212121;
+  max-width: 420px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -35,55 +39,60 @@
 .profile__description {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   max-width: 420px;
+  color:#212121;
   opacity: 0.7;
 }
 
 .profile__edit-btn {
-  margin-top: auto;
+  margin-top: 0 auto;
   min-width: 107px;
   height: 16px;
   border: none;
   background-color: #fcf5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #212121;
   opacity: 0.7;
   display: flex;
+  align-items: center;
   gap: 8px;
-  padding: 0;
+  padding-top: 114px;
+  cursor: pointer;
 }
 
 .profile__edit-btn:hover {
-  color:#212121;
+  color: #212121;
   opacity: 1;
 }
 
 .profile__add-btn {
   margin-left: auto;
-  margin-top: 138px;
+  align-self: center;
+  align-self: flex-end;
   min-width: 157px;
   height: 52px;
   border: none;
   border-radius: 8px;
   background-color: #212121;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #fcf5e5;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .profile__add-btn:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
@@ -124,5 +133,6 @@ opacity: 0.8;
     margin-top: 0;
     max-width: 288px;
     width: 100%;
+    align-self: center;
   }
 }
