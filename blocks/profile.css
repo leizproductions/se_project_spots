@@ -4,7 +4,7 @@
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
 
-.profile.page_section {
+.profile.page__section {
   max-width: 1280px;
   margin: 0 auto;
 }
