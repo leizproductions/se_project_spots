@@ -1,0 +1,14 @@
+.footer {
+  margin-top: auto;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 60px 0 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #212121;
+  opacity: 70%;
+}
