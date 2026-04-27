@@ -42,3 +42,5 @@ This is one of the early foundational projects in the program, helping build the
 ## 🚀 Live Demo
 
 - [deployment link](https://leizproductions.github.io/se_project_spots/)
+- check out [Spots Stage 2 Presentation](https://drive.google.com/file/d/10aoHtuSc_0mVz4Etbh55hqIpbM9d6Df2/view?usp=sharing), where I describe my 
+ project and some challenges I faced while building it.
