@@ -10,6 +10,11 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
 }
 
 .modal__container {
@@ -23,6 +28,7 @@
 }
 
 .modal_is-opened {
+  opacity: 1;
   visibility: visible;
 }
 
@@ -99,6 +105,7 @@
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
@@ -115,7 +122,7 @@
     top: 12px;
     right: 12px;
   }
-  
+
   .modal__submit-btn {
     max-width: none;
     width: 100%;
