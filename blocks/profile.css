@@ -51,7 +51,7 @@
 }
 
 .profile__edit-btn {
-  margin-top: 0 auto;
+  margin-top: auto;
   min-width: 107px;
   height: 16px;
   border: none;
@@ -74,7 +74,6 @@
 
 .profile__add-btn {
   margin-left: auto;
-  align-self: center;
   align-self: flex-end;
   min-width: 157px;
   height: 52px;
